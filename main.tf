@@ -8,12 +8,12 @@ resource "aws_s3_bucket" "s3bucket" {
     }
 }
 
-resource "aws_s3_bucket" "s3bucket" {
+resource "aws_s3_bucket" "s3bucket4" {
     bucket = "snehalkediaawsterrabucket"
     acl    = "private"
  
     tags = {
-        Name        = "bucketterra"
+        Name        = "bucketterra4"
         Environment = "Dev"
     }
 }
